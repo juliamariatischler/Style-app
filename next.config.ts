@@ -13,6 +13,9 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "**.googleusercontent.com" },
       { protocol: "https", hostname: "shopping.googleapis.com" },
+      { protocol: "https", hostname: "**.serpapi.com" },
+      { protocol: "https", hostname: "encrypted-tbn*.gstatic.com" },
+      { protocol: "https", hostname: "**.vercel.app" },
     ],
   },
 };
